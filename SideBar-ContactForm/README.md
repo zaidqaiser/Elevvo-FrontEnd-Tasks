@@ -1,4 +1,3 @@
-````markdown
 # 📂 SideBar & Contact Form
 
 A responsive **React.js** project featuring a **collapsible sidebar** and a **contact form**.  
@@ -52,11 +51,7 @@ Built with **TailwindCSS** for styling, **Framer Motion** for smooth animations,
 <img width="3000" height="3000" alt="sidebar-post" src="https://github.com/user-attachments/assets/3859cd72-7d8a-444d-9ccc-c759d0193b1c" />
 <img width="3000" height="3000" alt="contactus-post" src="https://github.com/user-attachments/assets/f0f308f5-13fa-4372-8166-3270e808d499" />
 
-```markdown
-![Sidebar Contact Form Preview](public/preview.png)
-```
 
----
 
 ## 🙌 Acknowledgements
 
