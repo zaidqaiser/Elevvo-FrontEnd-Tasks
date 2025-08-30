@@ -61,19 +61,5 @@ Built with **TailwindCSS** for styling, **Framer Motion** for smooth animations,
 
 ---
 
-## 📜 License
-
-This project is for learning and practice purposes. Free to use and modify.
-
-```
-
----
-
-⚡ You just need to add a screenshot of your UI inside `public/preview.png` (or upload on GitHub and paste the link in place of the preview).  
-
-Do you want me to also write a **short project description** (1–2 lines) that you can put at the very top of your GitHub repo page?
-```
-
-
 
 
