@@ -44,8 +44,6 @@ Built with **TailwindCSS** for styling, **Framer Motion** for smooth animations,
    npm run dev
    ```
 
----
-
 ## 📷 Preview
 
 <img width="3000" height="3000" alt="sidebar-post" src="https://github.com/user-attachments/assets/3859cd72-7d8a-444d-9ccc-c759d0193b1c" />
