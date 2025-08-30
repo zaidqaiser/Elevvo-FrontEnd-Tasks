@@ -20,13 +20,20 @@ Built with **TailwindCSS** for styling, **Framer Motion** for smooth animations,
 - **Framer Motion**
 - **React Icons**
 
+## 📷 Preview
+
+<img width="3000" height="3000" alt="sidebar-post" src="https://github.com/user-attachments/assets/3859cd72-7d8a-444d-9ccc-c759d0193b1c" />
+<img width="3000" height="3000" alt="contactus-post" src="https://github.com/user-attachments/assets/f0f308f5-13fa-4372-8166-3270e808d499" />
+
+
+
 ---
 
 ## 📦 Installation & Setup
 1. Clone the repository:
    ```bash
    git clone https://github.com/zaidqaiser/Elevvo-FrontEnd-Tasks.git
-````
+   ````
 
 2. Navigate to the project folder:
 
@@ -43,11 +50,6 @@ Built with **TailwindCSS** for styling, **Framer Motion** for smooth animations,
    ```bash
    npm run dev
    ```
-
-## 📷 Preview
-
-<img width="3000" height="3000" alt="sidebar-post" src="https://github.com/user-attachments/assets/3859cd72-7d8a-444d-9ccc-c759d0193b1c" />
-<img width="3000" height="3000" alt="contactus-post" src="https://github.com/user-attachments/assets/f0f308f5-13fa-4372-8166-3270e808d499" />
 
 
 
