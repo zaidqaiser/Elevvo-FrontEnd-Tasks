@@ -10,8 +10,6 @@ import rain_icon from "../assets/rain.png";
 import snow_icon from "../assets/snow.png";
 import wind_icon from "../assets/wind.png";
 import humidity_icon from "../assets/humidity.png";
-
-// React Icons
 import { BsSunrise, BsSunset } from "react-icons/bs";
 import { WiBarometer, WiDayFog } from "react-icons/wi";
 
@@ -89,7 +87,12 @@ const Weather = () => {
 
   return (
     <div className="weather">
-      {/* Search Bar */}
+      <a href="" onClick={() => window.location.reload()}>
+        <div className=" text-white title">
+        <h3 className="text-[40px] font-semibold">MAUSAM</h3>
+        <p className="text-[14px]">Realtime Weather Tracker</p>
+      </div>
+      </a>
       <div className="search-bar">
         <input
           type="text"
@@ -98,10 +101,7 @@ const Weather = () => {
           onChange={(e) => setCity(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleSearch()}
         />
-        <img src={search_icon} alt="search" onClick={handleSearch} />
       </div>
-
-      {/* Unit Toggle */}
       <div className="unit-toggle">
         <button
           className={unit === "C" ? "active" : ""}
@@ -129,7 +129,9 @@ const Weather = () => {
             alt="weather"
             className="weather-icon"
           />
-          <p className="temperature">{convertTemp(weatherData.current.temp_c)}</p>
+          <p className="temperature">
+            {convertTemp(weatherData.current.temp_c)}
+          </p>
           <p className="location">
             {weatherData.location.name}, {weatherData.location.country}
           </p>
@@ -137,8 +139,6 @@ const Weather = () => {
           <p className="updated">
             Last updated: {weatherData.current.last_updated}
           </p>
-
-          {/* Weather Info */}
           <div className="weather-data">
             <div className="col">
               <img src={humidity_icon} alt="humidity" />
@@ -183,8 +183,6 @@ const Weather = () => {
               </div>
             </div>
           </div>
-
-          {/* Forecast Section */}
           <div className="forecast">
             <h3>Next 3 Days</h3>
             <div className="forecast-cards">
