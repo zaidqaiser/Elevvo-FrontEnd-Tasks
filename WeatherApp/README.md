@@ -32,7 +32,7 @@ A responsive weather dashboard built with **React**, **Axios**, and **OpenWeathe
    ```bash
    npm install
    ```
-3. Add your **OpenWeather API Key** in `App.js`:
+3. Add your **OpenWeather API Key** in `App.jsx`:
 
    ```js
    const API_KEY = "YOUR_API_KEY";
